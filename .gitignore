@@ -1,2 +1,3 @@
 src/*
 !src/*.c
+.vscode
