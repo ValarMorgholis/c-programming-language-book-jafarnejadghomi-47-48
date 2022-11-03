@@ -19,6 +19,6 @@ int main()
     printf("Please enter the water weight per Litre : ");
     scanf("%f", &wpl);
 
-    printf("There is %e molecule in %f Litre water\n", wpl * 950 / mpgr, wpl);
+    printf("There is %e molecule in %f(L) water\n", wpl * 950 / mpgr, wpl);
     return 0;
 }
