@@ -13,7 +13,7 @@
 
 int main()
 {
-    printf("keep looking!");
-    printf("you\'ll find it");
+    printf("keep looking!\n");
+    printf("you\'ll find it\n");
     return 0;
 }
