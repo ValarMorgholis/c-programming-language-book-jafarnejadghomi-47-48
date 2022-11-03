@@ -26,6 +26,5 @@ int main()
     price = (pa4 * 50) + (ppen * 150);
 
     printf("The expenses of company is :  %lf\n", (infl / 100 * price) + price);
-
     return 0;
 }
