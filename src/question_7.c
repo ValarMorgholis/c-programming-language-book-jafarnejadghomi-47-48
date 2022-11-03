@@ -14,7 +14,7 @@ int main()
 {
     int weight;
 
-    printf("Please enter the weight per kg : ");
+    printf("Please enter the weight(Kg) : ");
     scanf("%d", &weight);
 
     printf("The weight per gr : %d\n", weight * 1000);
