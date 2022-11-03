@@ -28,4 +28,4 @@ $ make clean
 ```
  
 ## Date
-Thursday, November 3, 2022
+Thursday, November 3, 2022.
