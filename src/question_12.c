@@ -19,6 +19,6 @@ int main()
     printf("Please enter your age : ");
     scanf("%d", &age);
 
-    printf("your age per second is : %e\n", age * YEAR_PER_SECOND);
+    printf("Your age per second : %e\n", age * YEAR_PER_SECOND);
     return 0;
 }
