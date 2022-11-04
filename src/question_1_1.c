@@ -13,20 +13,22 @@
 
 int main()
 {
-    int n, gpa, max = 0;
+    int student_count, gpa, max = 0, university_student_number;
 
-    printf("Enter n: ");
-    scanf("%d", &n);
+    printf("How many student do you have? ");
+    scanf("%d", &student_count);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= student_count; i++)
     {
-        printf("Enter your GPA : ");
+        printf("Enter the GPA of student %d : ", i);
         scanf("%d", &gpa);
-
+        printf("Enter the university student number %d : ", i);
+        scanf("%d", &university_student_number);
+            
         if (gpa > max)
             max = gpa;
     }
 
-    printf("max : %d\n", max);
+    printf("Maximum gpa is for student %d is %d\n", university_student_number, max);
     return 0;
 }
