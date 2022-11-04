@@ -13,7 +13,7 @@
 
 int main()
 {
-    int student_count, gpa, max = 0, university_student_number, scores[student_count];
+    int student_count, gpa, max = 0, university_student_number, scores[BUFSIZ];
 
     printf("How many student do you have? ");
     scanf("%d", &student_count);
