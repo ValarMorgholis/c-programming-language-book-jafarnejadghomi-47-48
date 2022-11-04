@@ -4,9 +4,9 @@
  * @brief Related on page 70, question 2.
  * @version 0.1
  * @date 2022-11-04
- * 
+ *
  * @copyright Copyright (c) 2022
- * 
+ *
  */
 
 #include <stdio.h>
@@ -16,7 +16,7 @@ int main()
     for (;;)
     {
         int number, sum = 0;
-        char flag;
+        char yes_no;
 
         printf("Enter the number : ");
         scanf("%d", &number);
@@ -26,16 +26,25 @@ int main()
                 sum += i;
 
         if (sum == number)
-            printf("%d is perfect\n", number);
+            printf("%d is a perfect number\n", number);
         else
-            printf("%d is not perfect\n", number);
+            printf("%d is not a perfect number\n", number);
 
         printf("Do you want to continue? [Y/n] ");
-        scanf(" %c", &flag);
+        scanf(" %c", &yes_no);
 
-        if (flag == 'n')
+        if (yes_no == 'n')
+        {
+            printf("Have a good day.");
             break;
+        }
+        else if (yes_no == 'y')
+            continue;
+        else
+        {
+            printf("You entered wrong input");
+            break;
+        }
     }
-
     return 0;
 }
