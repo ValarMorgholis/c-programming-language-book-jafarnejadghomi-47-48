@@ -1,4 +1,4 @@
-# C structure and Input/Output exercises
+# C-Programming-Language-Book-JafarNejadGhomi
 This project was written by Mr.Mohammad.Mahdi.Mirzaie
 
 ## Subject
@@ -28,4 +28,4 @@ $ make clean
 ```
  
 ## Date
-Thursday, November 3, 2022.
+2022.
